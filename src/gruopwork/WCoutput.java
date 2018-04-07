@@ -4,9 +4,10 @@ import java.util.List;
 import java.util.Map;
 
 public class WCoutput {
-	public static void writeFile(String outputFilePath, String outputFileContent) throws IOException 
+	//Êä³öÎÄ¼þ
+	public static void writeFile(String outputFileContent) throws IOException 
 	{
-		outputFilePath = "result.txt";
+		String outputFilePath = "result.txt";
         try {  
             File file = new File(outputFilePath);  
             if (!file.exists()) {  

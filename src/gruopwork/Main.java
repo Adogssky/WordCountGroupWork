@@ -1,5 +1,5 @@
 package gruopwork;
-import java.io.*;
+
 import java.util.*;
 
 public class Main {
@@ -16,6 +16,6 @@ public class Main {
 		wordCountPart.setInput(postSplit);
 		wordCountPart.count();
 		outputContent = outputPart.contentConstruct(wordCountPart.list);
-		outputPart.writeFile("",outputContent);
+		outputPart.writeFile(outputContent);
 	}
 }

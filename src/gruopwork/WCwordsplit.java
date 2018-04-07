@@ -6,14 +6,12 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.regex.Pattern;
 
 public class WCwordsplit {
 	private ArrayList<String> sing = new ArrayList<String>();
 	private InputStreamReader inputStreamreader;
-    private OutputStream outputstream;
     private BufferedReader bufferReader;
     
     public void readFile(File file) throws FileNotFoundException{
@@ -45,7 +43,7 @@ public class WCwordsplit {
 				word = s.split("[-]+");
 				System.out.println(word.length);
 				sing.remove(i);
-				sing.add(i,word[0] );
+				sing.add(i,word[1] );
 			}
 		}
         }
