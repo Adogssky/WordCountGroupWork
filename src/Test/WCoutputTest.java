@@ -97,7 +97,7 @@ class WCoutputTest {
 	@Test
 	void testContentConstruct_4() throws IOException {
 		map.put("sa",1);
-		map.put("mmp", 1);
+		map.put("mp", 1);
 		for(Map.Entry<String, Integer> entry : map.entrySet()){
             list.add(entry); 
        }
@@ -108,7 +108,7 @@ class WCoutputTest {
 	@Test
 	void testContentConstruct_5() throws IOException {
 		map.put("sa",1);
-		map.put("cnm", 1);
+		map.put("cm", 1);
 		for(Map.Entry<String, Integer> entry : map.entrySet()){
             list.add(entry); 
        }
@@ -120,7 +120,7 @@ class WCoutputTest {
 	void testAll_1() throws IOException {
 		String outputFileContent;
 		map.put("sa",1);
-		map.put("cnm", 1);
+		map.put("cm", 1);
 		for(Map.Entry<String, Integer> entry : map.entrySet()){
             list.add(entry); 
        }
@@ -133,7 +133,7 @@ class WCoutputTest {
 	void testAll_2() throws IOException {
 		String outputFileContent;
 		map.put("sa",1);
-		map.put("mmp", 1);
+		map.put("mp", 1);
 		for(Map.Entry<String, Integer> entry : map.entrySet()){
             list.add(entry); 
        }

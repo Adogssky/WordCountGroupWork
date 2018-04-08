@@ -1,7 +1,7 @@
 package gruopwork;
 import java.util.*;
 public class WCwordcount{
-	ArrayList<String> input = new ArrayList<String>();
+	public ArrayList<String> input = new ArrayList<String>();
 	Map<String,Integer> map = new HashMap<String,Integer>();
 	List<Map.Entry<String, Integer>> list = new ArrayList<>();
 	public void count(){
